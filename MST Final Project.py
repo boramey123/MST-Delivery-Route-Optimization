@@ -711,7 +711,7 @@ while run:
     #draw the nodes of the graph
     for key, value in nodes.items(): 
         pygame.draw.circle(screen, (value.color), value.pos, 15) 
-        circle_text = main_font.render(str(key), True, value.node_text_color) #give each node a number
+        circle_text = pygame.font.SysFont(None, 36).render(str(key), True, value.node_text_color) #give each node a number
         text_rect = circle_text.get_rect(center = value.pos)
         screen.blit(circle_text, text_rect) 
     
