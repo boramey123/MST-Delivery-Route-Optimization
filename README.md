@@ -37,8 +37,8 @@ This program simulates a delivery route optimizer based on Minimum Spanning Tree
 
 ## Requirements
 
-* Python 3.x
-* Required libraries : pygame
+* Python 3.12.5
+* Required library : pygame
 
 ---
 
